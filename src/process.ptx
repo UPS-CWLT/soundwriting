@@ -479,7 +479,7 @@
                 </li>
                 <li>
                     <title>Make an annotated bibliography</title>
-                    <p>Sometimes professors assign annotated bibliographies to encourage students to begin researching and thinking about the research process. If you are assigned one, then take it seriously and do as much work as possible on it. By the time you're ready to start writing your paper, you'll already have most of your sources compiled, most of your citations done, and most of your background information gathered. While an annotated bibliography may seem like an unnecessary hassle, you will thank yourself later! If you aren't assigned one, though, you can create an informal version for yourself. Simply gather your useful articles and summarize the <emph>argument</emph> of each in your own words. You might also add a sentence or two about how you plan to use the article as evidence for your argument. If you're feeling really productive (or if you want to procrastinate productively), you could also write the citations for each article to go along with your annotations (don't leave this for the last second!).</p>
+                    <p>Sometimes professors assign annotated bibliographies to encourage students to begin researching and thinking about the research process. If you are assigned one, then take it seriously and do as much work as possible on it. By the time you're ready to start writing your paper, you'll already have most of your sources compiled, most of your citations done, and most of your background information gathered. While an annotated bibliography may seem like an unnecessary hassle, you will thank yourself later! If you aren't assigned one, though, you can create an informal version for yourself. Simply gather your useful articles and summarize the <em>argument</em> of each in your own words. You might also add a sentence or two about how you plan to use the article as evidence for your argument. If you're feeling really productive (or if you want to procrastinate productively), you could also write the citations for each article to go along with your annotations (don't leave this for the last second!).</p>
                 </li>
                 <li>
                     <title>Leave notes to yourself while you're writing</title>
@@ -539,13 +539,11 @@
                     <li>
                         <title>Conclusion</title>
                         <p>Does it encapsulate the argument of the paper in a new way? Is there a sense of broader significance or application?</p>
-                        <p>
-                            For instance, the conclusion
-                            <blockquote>
-                                <p><q>Recorded student reactions to eating broccoli indicate that broccoli is an unpopular food choice among college students. These findings suggest that broccoli should be excised from the <acro>SUB</acro> menu.</q></p>
-                            </blockquote>
-                            suggests the practical removal of broccoli from the SUB menu.
-                        </p>
+                        <p>For instance, the conclusion</p>
+                        <blockquote>
+                            <p><q>Recorded student reactions to eating broccoli indicate that broccoli is an unpopular food choice among college students. These findings suggest that broccoli should be excised from the <acro>SUB</acro> menu.</q></p>
+                        </blockquote>
+                        <p>suggests the practical removal of broccoli from the SUB menu.</p>
                     </li>
                 </dl>
             </p>

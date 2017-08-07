@@ -1047,7 +1047,6 @@
                         <title>Passive</title>
                         <p><q>Barbara was hugged by Sally.</q></p>
                     </li>
-                    <li/>
                     <li>
                         <title>Active</title>
                         <p><q>I did my homework.</q></p>
@@ -1056,7 +1055,6 @@
                         <title>Passive</title>
                         <p><q>My homework was done by me.</q></p>
                     </li>
-                    <li/>
                     <li>
                         <title>Active</title>
                         <p><q>My roommate woke me up as she got ready for crew practice.</q></p>
@@ -1065,7 +1063,6 @@
                         <title>Passive</title>
                         <p><q>I was woken up by my roommate as she got ready for crew practice.</q></p>
                     </li>
-                    <li/>
                     <li>
                         <title>Active</title>
                         <p><q>We made mistakes.</q></p>
@@ -1367,7 +1364,7 @@
                         <p>For example, if this were the original sentence, <q>I have never seen The Postmen play a game, but I really enjoy watching Ultimate Frisbee games because the players have so many cool frisbee throws!</q> then you would need an ellipsis if you cut the introductory or concluding clause: <q><ellipsis/> I really enjoy watching Ultimate Frisbee games <ellipsis/> .</q></p>
                     </li>
                     <li>
-                        <title>If you are quoting a sentence with an informality or deviation from <xref ref="SAE">Standard American English</xref> or emphasis in the source material, acknowledge that within or after the quote</title>
+                        <title>If you are quoting a sentence with an informality or deviation from Standard American English or emphasis in the source material, acknowledge that within or after the quote</title>
                         <p>Sometimes direct quotes have spelling or grammatical deviations from <xref ref="SAE"><init>SAE</init></xref>. In order to preserve the original voice, it's important to include these deviations when possible and acknowledge them with an indicator ([sic], Latin for <q>thus</q>) after the perceived deviation. Similarly, if a part of your source material is underlined or italicized or in some other way emphasized, you should generally include this in your quotation. Emphases are indicated differently based on the citation style you are using (see <xref ref="citations" text="type-global"/>), but a basic guideline is to indicate emphases with <q>[emphasis in original]</q> at the end of or immediately following the quoted sentence.</p>
                         <blockquote>
                             <p>The subject tutor asked the seminar class, <q>Y'all [sic] going to the <sq><url href="http://www.pugetsound.edu/academics/academic-resources/cwlt/events">Long Night Against Procrastination</url></sq> at the CWLT?</q></p>
