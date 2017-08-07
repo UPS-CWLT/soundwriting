@@ -48,12 +48,30 @@ function setup {
 
 # Validation using RELAX-NG
 function validate {
-    xmllint --xinclude ${SOURCE}/SoundWriting.ptx > ${SCRATCH}/full.xml
     java\
         -classpath ${JINGTRANG}\
         -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration\
         -jar ${JINGTRANG}/jing.jar\
-        ${MBX}/Schema/pretext.rng ${SCRATCH}/full.xml > ${SCRATCH}/errors.txt
+        ${MBX}/Schema/pretext.rng ${SOURCE}/SoundWriting.ptx\
+    | grep -v\
+        -e 'black'\
+        -e 'blue'\
+        -e 'darkgreen'\
+        -e 'darkpurple'\
+        -e 'darkred'\
+        -e 'gray'\
+        -e 'green'\
+        -e 'lightblue'\
+        -e 'lightgreen'\
+        -e 'lightpink'\
+        -e 'lightpurple'\
+        -e 'maroon'\
+        -e 'navy'\
+        -e 'orange'\
+        -e 'pink'\
+        -e 'red'\
+        -e 'teal'\
+    > ${SCRATCH}/errors.txt
     less ${SCRATCH}/errors.txt
 }
 
