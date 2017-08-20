@@ -93,7 +93,7 @@ function view_errors {
     Less ${SCRATCH}/errors.txt
 }
 
-# Subroutine to build the HTML Version
+# Subroutine to build the HTML version
 function build_html {
     echo
     echo "BUILD: Building HTML Version :BUILD"
@@ -111,7 +111,7 @@ function view_html {
     ${HTMLVIEWER} ${SCRATCH}/html/index.html
 }
 
-# Subroutine to build the PDF/print Version
+# Subroutine to build the electronic PDF version
 function build_pdf {
     xsltproc --xinclude ${MBUSER}/ups-writers-latex.xsl ${SOURCE}/SoundWriting.ptx
     xelatex SoundWriting.tex
@@ -123,7 +123,7 @@ function view_pdf {
     ${PDFVIEWER} ${SCRATCH}/SoundWriting-electronic.pdf
 }
 
-# Subroutine to build the PDF/print Version
+# Subroutine to build the print PDF version
 function build_print {
     xsltproc --xinclude --stringparam latex.print yes ${MBUSER}/ups-writers-latex.xsl ${SOURCE}/SoundWriting.ptx
     xelatex SoundWriting.tex
@@ -147,7 +147,7 @@ function website_valid {
     echo
 }
 
-# $2 is a username with priviliges at
+# $2 (aliased to ${UNAME}) is a username with priviliges at
 # /var/www/html/soundwriting.pugetsound.edu/ on userweb.pugetsound.edu
 function website {
     echo "BUILD: rsync entire web version...                      :BUILD"
