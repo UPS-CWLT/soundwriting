@@ -395,8 +395,7 @@
             <paragraphs xml:id="par-process-signposts">
                 <title>The Signposts</title>
                 <p>Whether you are expressing a similar idea or introducing a completely new one, transitions can be useful when you want to move from one thought to another. Transitions act as the signposts for your paper, guiding the reader from one thought to another while minimizing unexpected surprises. Below are some examples of transitional expressions and how to use them.</p>
-                <image source="WP-TransitionSignpost.png" width="70%"><description>A brown cartoon signpost pointing to one side, bearing the text, "Reader, this way!"
-</description></image>
+                <image source="WP-TransitionSignpost.png" width="70%"><description>A brown cartoon signpost pointing to one side, bearing the text, "Furthermore..." and pointing to the other side, bearing the text "As previously mentioned..."</description></image>
                     <tabular>
                         <col width="30%"/>
                         <col width="70%"/>
@@ -466,7 +465,7 @@
                 <paragraphs xml:id="par-process-album">
                     <title>The Photo Album</title>
                     <p>When it's 1:59 a.m. in <custom ref="library"/> and you're nearing the end of your paper, it may be tempting for you to throw up your hands in desperation and exclaim, <q>I don't need a conclusion! I've said everything I need to say!</q> While we've all been in that position, it's definitely worth it to stay up a little later or get up a little earlier to write a strong conclusion. An effective conclusion <em>restates the argument</em> to remind the audience where they have been, and <em>offers some greater implications or applications</em> of your proposed resolution.</p>
-                        <image source="WP-ConclusionCamera" width="50%"><description>A black and white cartoon of a camera.</description></image>
+                        <image source="WP-ConclusionCamera" width="50%"><description>A colorful photo album.</description></image>
                     <p>Just as the introduction is the first thing your audience will read, the conclusion will be the last thing they remember before they put your paper down. In this way, the conclusion can be conceptualized as the photo scrapbook or Facebook album containing all the images from the reader's journey, with a few new trip ideas or future destinations thrown in. For this reason, the conclusion can be a great opportunity for you to reach beyond the scope of the prompt and make connections to greater issues or concepts that were not discussed in your paper.</p>
                 </paragraphs>
             </subsubsection>
