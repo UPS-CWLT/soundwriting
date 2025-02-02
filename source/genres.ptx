@@ -353,4 +353,85 @@
             <p>You have a few different formatting options when it comes to writing your thank-you note. You can 1) hand-write it, 2) type it up and print it out, or 3) email it to your interviewers. There are benefits and drawbacks to each format, and you should choose the one that makes the most sense given convenience and the type of company to which you are applying. For instance, handwritten notes are more personalized and can demonstrate your passion for the position. However, for a very time-sensitive situation, an immediate and polite email might be most appropriate (for more on email etiquette, see <xref ref="email-etiquette"/>). <custom ref="CES-thanks"/></p>
         </paragraphs>
     </section>
+    <section xml:id="genres-research-proposal">
+        <title>Writing Research Proposals</title>
+            <paragraphs>
+                <title>Why a Research Proposal?</title>
+                <p>
+                If you plan to conduct research in an academic field, you’ll probably have to write a research proposal at some point. That can be daunting to do at the start of a research project. But trust that you can do it and contribute something new. <q><em>The originality lies within the details<ellipsis/>finding an aspect that brings pieces together in a new way and creates something beyond what’s already there.</em></q>
+                </p>
+
+                <p>Depending on the discipline you’re doing research in, the specific sections of a research proposal might change. That being said, the goal of a research proposal is almost always to convince somebody (a professor, university, company, etc.) to support your research.
+                </p>
+            </paragraphs>
+            <note>
+            Unless otherwise stated, all italicized quotes throughout this section are excerpted from interviews with University of Puget Sound faculty.
+            </note>
+            <paragraphs>
+            <title>Introduction to Research Proposals</title>
+            <p>
+            You can think of a research proposal as the “blueprint” for your project. A research proposal usually explains the research problem, a list of goals you are trying to accomplish, your method of engaging with or solving the problem, and what you expect to find out when everything is finished.
+            </p>
+            <p>
+            Calls for research proposals will include instructions regarding what kinds of information you should include in your proposal. These instructions will give you the clearest picture of what your audience is expecting to see when they read your proposal for the first time.
+            </p>
+        </paragraphs>
+    <list xml:id="core-elements-research-proposals">
+                <title>Core Elements of Research Proposals</title>
+
+                <ul>
+                    <li><title>Define the research problem</title>
+                        <p>Early in the proposal, clearly articulate the research question/problem the study aims to address.</p>
+                    </li>
+                    <li><title>Provide context</title>
+                        <p>What kinds of research has already been done on this subject? How did pre-existing scholarship (if any) lead you to ask your research question(s)?</p>
+                    </li>
+                    <li><title>Justify your research</title>
+                        <p>Why is your research important?  What gap does it fill in the existing body of knowledge? Why is that significant?</p>
+                    </li>
+                    <li><title>Explain your methodology</title>
+                        <p>Articulate the methods and techniques you will use to collect and analyze data.</p>
+                        <p>Establish a rough schedule or time frame that maps out the different stages in your research. When do you hope to make progress? What does that progress look like?</p>
+                        <p>Adapt the methods of your discipline to the proposal guidelines. This section is often fairly clear-cut for technical or science-based research. Artistic or humanities researchers might use this opportunity to explain their creative philosophy, project timeline, or technical details regarding their creative process.</p>
+                    </li>
+                    <li><title>Anticipate outcomes</title>
+                        <p>Predict the expected results and their potential implications.
+                        </p>
+                    </li>
+                    <li><title>Cite your sources</title>
+                        <p>Since you are likely building on preexisting scholarship and/or methodology, you must attribute these ideas to the researchers who came before you.
+                        </p>
+                    </li>
+                </ul>
+            </list>
+        <paragraphs>
+            <title>Organization and Content of Research Proposals</title>
+            <p>
+            The format and content of research proposals can vary across disciplines due to the unique requirements and conventions within each field. For example, it is very difficult to critically interpret scientific data without understanding the methodology used to obtain that data. By contrast, methodology for a creative writing project is much more abstract and personal. This means that a STEM-related research proposal might feature a more detailed methodology section, while a creative writing research proposal might have a more sparse one<mdash/>and that’s okay!
+            </p>
+        </paragraphs>
+        <paragraphs>
+            <title>Budget</title>
+            <p>
+            Research proposals for class research generally don't include a budget proposal, but research proposals for summer research or other research opportunities outside of class often do. A budget proposal offers an explanation of how much money you intend to spend and how you’re going to spend it.
+            </p>
+            <p>
+            A well-prepared budget proposal is an integral part of your overall research proposal. It not only demonstrates your financial responsibility but also reinforces the feasibility of your research project. Tailor your budget proposal to the specific requirements of the funding source you are applying to, and be prepared to adjust it based on their feedback or guidelines.
+            </p>
+            <p>
+            A budget proposal needs to define budget categories (for example, materials and supplies, travel costs, publication, and presentation costs) as well as itemize all of these categories by expected expense. Budget proposals will typically vary by discipline and should be written in communication with your research advisor’s guidance.
+            </p>
+            <p>
+            Funding for research often varies between disciplines. Researchers and professionals in your field of interest will be able to guide you to helpful resources, and often so can your peers or others who have done research.
+            </p>
+        </paragraphs><paragraphs>
+            <title>Audience of Research Proposals</title>
+            <p>
+            Depending on who is reading your research proposal, you might choose to include or take out various pieces of information. For example, let’s say you're a materials scientist, and you’re conducting research on how people have historically fired a certain kind of ceramic pot. If you are writing your research proposal for an anthropology class and your professor's own research happens to be about ancient ceramics, your justification of why the research is important will need to be highly specific. Conversely, if your audience is not familiar with your field of interest, you might need to broaden your discussion so that it’s accessible for a more general audience.
+            </p>
+            <p>
+            So, while the core elements of research proposals remain consistent<mdash/>such as defining the problem and justifying the research<mdash/>adapting to the unique demands of your discipline and audience is crucial to crafting an effective proposal.
+            </p>
+        </paragraphs>
+    </section>
 </chapter>
