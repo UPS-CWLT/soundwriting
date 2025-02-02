@@ -12,73 +12,11 @@
 <!--                                                                    -->
 <chapter xml:id="speaking">
     <title>Speaking and Writing</title>
-    <p>The previous eight chapters have focused on writing and research. While writing and researching are important academic skills, <em>speaking</em> is equally important. Spoken and written arguments are in many ways the same: both articulate positions in an assertive voice, both are organized according to purpose, and both present evidence based on the expectations of an audience. The main difference between spoken and written arguments is not <em>what</em> your ideas are but <em>how</em> you convey them.</p>
-    <p>Spoken arguments are conveyed in real time; as a student, you know this difference all too well. Consider which of the following scenarios is scarier: (1) You zone out for a couple of paragraphs before you have to respond to a couple of comprehension questions; (2) you're in lecture and zone out for a few slides, but your professor calls on you to answer a question in class. Of course, the second scenario is scarier! That's because, whereas you can reread a passage that you missed, it's difficult to re-consult a lecture occurring in real time. As you prepare oral presentations, keep this difference in mind. Because your audience will not be able to review if they get lost or distracted, it is important to give your listeners some comprehension wiggle room.</p>
-    <list xml:id="list-speaking-strategies-structuring">
-        <title>Strategies for Structuring a Spoken Argument</title>
-        <ul>
-            <li><title>Use simple vocabulary and sentence structure</title>
-                <p>Since your audience won't be able to re-hear the sentences you speak or look up the words you use in a dictionary, make everyone's life easier by speaking in accessible language and adopting a conversational tone.</p>
-            </li>
-            <li><title>Give your presentation a clear introduction, body, and conclusion</title>
-                <p>This structure will not only help to keep your listeners engaged, but it will also give your presentation an audience-friendly, narrative quality.</p>
-            </li>
-            <li><title>Use pauses and transitions to explain relationships between ideas</title>
-                <p>Pauses act like paragraph breaks<mdash/>they signal to your audience that you are shifting ideas or advancing in your argument. Transitional statements (such as <q>The second point to consider is <fillin/></q> and <q>While <fillin/> is important to consider, even more important is <fillin/></q>) guide your audience through your spoken argument (see <xref ref="transitions"/>).</p>
-            </li>
-            <li><title>Use clean, clear, and high-quality visuals</title>
-                <p>Think about how hard it is to follow along in class when a professor lectures without visuals. Help your audience by providing them with interesting visuals that will help them follow as you speak. Just make sure your visuals don't distract from your message. Also, keep in mind that your visuals are of no use to your audience if they can't see them. Use images that are large and of sufficient resolution to be seen from any distance.</p>
-            </li>
-            <li><title>Repeat!</title>
-                <p>Since your audience won't be able to pause and go back over previous material as they would be able to while reading a written argument, it's important that you provide them this opportunity by reminding your audience of the main parts of your argument and<mdash/>especially<mdash/>of parts that may be too complex to grasp at first glance.</p>
-            </li>
-            <li><title>Be explicit!</title>
-                <p>(No, not that kind of explicit!) Explicitly state the connections between the parts of your argument and your thesis. Here, visual cues referring the reader back to relevant parts of your presentation can be helpful.</p>
-            </li>
-        </ul>
-    </list>
-    <p>To illustrate <em>how</em> one might go about transforming a written argument into a spoken one, take a look at these two paragraphs. The first paragraph comes from an student-written academic paper, and the second makes the same argument in language appropriate for an oral presentation. Notice that, though they contain the same information and make the same argument, each paragraph does so differently.</p>
-    <example>
-        <title>Written Argument</title>
-        <p>As a result of the increasing majoritarian agitation within American politics, many states began to reexamine their constitutions in order to better incorporate the desires of the common majority. One issue addressed within this field of political reform was the concept of universal male suffrage. Currently, the vote was extended to adult white males who owned land. Some statesmen wanted to extend suffrage to all adult white males regardless of their economic circumstances. George S. Camp articulated one of the most concise arguments in favor of universal male suffrage in 1841, in his book <pubtitle>Democracy</pubtitle>. For Camp, the right to vote was a natural right, attributed to men by the right of being human. He states, <q>All should have an equal voice in the public deliberations of the state, however unequal the point of circumstances, since human rights, by virtue of which alone we are entitled to vote at all, are the attributes of the man, not of his circumstances</q> (145). This statement neatly summarizes Camp's belief that the right to vote is a natural human right, irrespective of any economic condition. It also implies that because every man had the right to vote despite their economic circumstances, no class had a greater stake in the government than another. Camp argues, <q>Property is merely the subject on which rights are exercised <ellipsis/> We all have our rights, and no man has anything more</q> (146). For Camp, the economic situation of any human being was an <q>accident of fortune</q> and was of <q>true comparative insignificance</q> compared with the importance of <q>real attributes,</q> or natural rights, such as the right to vote; no man should be kept from exercising his rights because of his lack of economic prosperity.</p>
-    </example>
-    <p>That paragraph is difficult enough to <em>read!</em> Imagine trying to understand its argument if you could only listen to it. Enter this listener-friendly version (notice that it's been broken into two smaller chunks).</p>
-    <example>
-        <title>Spoken Argument</title>
-        <p>In nineteenth-century America, only white male landowners could vote. There was considerable political unrest because the majority of people felt that their voices had not been heard, so states began to reexamine their constitutions. One major solution to this problem was universal male suffrage, which in this case meant that all white males could vote, regardless of landownership.</p>
-        <p>One proponent of universal male suffrage, George S. Camp, argued that the right to vote is a natural human right. Camp insisted that economic circumstances don't affect a person's natural right to vote. He called people's ownership of property an exercise of rights, which means that all people have rights and nothing more. [pause] According to Camp, people in higher classes shouldn't have a greater stake in government because all that people have are their rights.</p>
-    </example>
-    <p>In length alone, the spoken version is shorter. By simplifying sentence structure and vocabulary, the spoken version is much more easily understandable. The speaker is patient with their explanations and clarifies things for the audience (<q>which in this case meant that all white males could vote</q>). By understanding the limits of aural processing, you can tailor your oral presentation to the needs of your audience and create, in so doing, a more pleasant experience for all.</p>
-    <p>We have considered some of the differences between spoken and written communication and suggested some strategies to negotiate them. Understanding these differences will help you to take advantage of the real time, face-to-face context of oral communication.</p>
-    <list xml:id="list-speaking-strategies-delivering">
-        <title>Strategies for Delivering a Spoken Argument</title>
-        <ul>
-            <li><title>Prepare ahead of time</title>
-                <p>Even if you consider yourself to be a great improviser, you should begin preparing your presentation <em>at least</em> a couple of days in advance to give yourself time to<nbsp/><ellipsis/></p>
-            </li>
-            <li><title>Practice!</title>
-                <p>Practicing your presentation <em>over and over</em> will help you feel more confident and comfortable when the time comes for you to actually present. We know that practicing speeches in college can sometimes be difficult, especially when you don't want to bother your roommate, but you have plenty of options! Try out a study room in <custom ref="library"/>, find an empty lounge in your residence hall, take turns practicing with other people in your class (or with your course assistant), make an appointment at the <custom ref="tutoring-center"/>, take your presentation notes on a walk and practice as you go (just watch out for cars and passersby!), or visit your professor during office hours for some feedback. Having a few run-throughs under your belt will make you more comfortable when you actually present.</p>
-            </li>
-            <li><title>Don't over-prepare</title>
-                <p>Of course, don't prepare so much that your presentation becomes all that you think about. It's important to sleep and take breaks!</p>
-            </li>
-            <li><title>Don't read; speak</title>
-                <p>The purpose of a presentation is not to read the audience your paper. Your audience can read. What they can't do when reading a written paper is engage in face-to-face communication with the writer. Engage your listeners on a personal level by actually <em>talking</em> to them. They'll be more interested in what you have to say, and you'll be happy to have been heard. (You might even be able to get away with a couple of jokes in your oral presentation. While we don't recommend undermining your authority with knock-knock jokes every other slide, a tasteful joke can help to establish rapport between you and your audience.)</p>
-            </li>
-            <li><title>Make eye contact</title>
-                <p>Although it might seem scary to look directly at your audience, making eye contact will actually make the presentation less awkward! Making eye contact also tells your audience that you reciprocate the attention that they're giving you.</p>
-                    <image source="SW-eyes" width="50%"><description>Cartoon brown eyes look directly at the reader.</description></image>
-            </li>
-            <li><title>Assume good intent</title>
-                <p>Sometimes people in your audience may look like they are not paying attention or like they aren't enjoying your presentation. While this may be the case, don't panic if people look less than enthralled. It's impossible to know why they look the way they do: They may have been sitting there for a long time, or maybe their resting face is not as perky and interested as your own! That said, when you're in the audience listening to other presentations, make an extra effort to be a good listener and to look interested and alert, even if you've been sitting there for a long time.</p>
-            </li>
-            <li><title>Remember that class presentations are learning experiences</title>
-                <p>Class presentations, as with everything you do in college, are practice. Your classmates are dealing with the same stresses and anxieties as you, and your professor is aware that you are <em>practicing</em> and <em>learning</em>. If it helps, ask your professor if you can use the timer on your phone to keep track of time during your presentation. (But don't do this if watching the seconds tick by will make you more anxious!)</p>
-            </li>
-        </ul>
-    </list>
-    <p>Just breathe and relax, and it will be all right.</p>
-    <list xml:id="list-speaking-five-differences">
+    <introduction>
+        <p>
+            <p>The previous eight chapters have focused on writing and research. While writing and researching are important academic skills, <em>speaking</em> is equally important. Spoken and written arguments are in many ways the same: both articulate positions in an assertive voice, both are organized according to purpose, and both present evidence based on the expectations of an audience. The main difference between spoken and written arguments is not <em>what</em> your ideas are but <em>how</em> you convey them.</p>
+        </p>
+         <list xml:id="list-speaking-five-differences">
         <title>Top 5 Differences Between Written and Spoken (or Signed) Language</title>
         <ol>
             <li><p>The obvious difference (excluding the modern inventions of radio, telephones, and television): written language allows people to communicate across time and space, while spoken language happens immediately and is available only for those who can hear it (or see it, in the case of sign languages).</p></li>
@@ -104,4 +42,161 @@
             </ul>
         </p>
     </paragraphs>
+    </introduction>
+        <section xml:id="structuring-spoken-argument">
+        <title>Structuring Spoken Arguments</title>
+        <p>Spoken arguments are conveyed in real time; as a student, you know this difference all too well. Consider which of the following scenarios is scarier: (1) You zone out for a couple of paragraphs before you have to respond to a couple of comprehension questions; (2) you're in lecture and zone out for a few slides, but your professor calls on you to answer a question in class. Of course, the second scenario is scarier! That's because, whereas you can reread a passage that you missed, it's difficult to re-consult a lecture occurring in real time. As you prepare oral presentations, keep this difference in mind. Because your audience will not be able to review if they get lost or distracted, it is important to give your listeners some comprehension wiggle room.</p>
+            <list xml:id="list-speaking-strategies-structuring">
+                <title>Strategies for Structuring a Spoken Argument</title>
+                <ul>
+                    <li><title>Use simple vocabulary and sentence structure</title>
+                        <p>Since your audience won't be able to re-hear the sentences you speak or look up the words you use in a dictionary, make everyone's life easier by speaking in accessible language and adopting a conversational tone.</p>
+                    </li>
+                    <li><title>Give your presentation a clear introduction, body, and conclusion</title>
+                        <p>This structure will not only help to keep your listeners engaged, but it will also give your presentation an audience-friendly, narrative quality.</p>
+                    </li>
+                    <li><title>Use pauses and transitions to explain relationships between ideas</title>
+                        <p>Pauses act like paragraph breaks<mdash/>they signal to your audience that you are shifting ideas or advancing in your argument. Transitional statements (such as <q>The second point to consider is <fillin/></q> and <q>While <fillin/> is important to consider, even more important is <fillin/></q>) guide your audience through your spoken argument (see <xref ref="transitions"/>).</p>
+                    </li>
+                    <li><title>Use clean, clear, and high-quality visuals</title>
+                        <p>Think about how hard it is to follow along in class when a professor lectures without visuals. Help your audience by providing them with interesting visuals that will help them follow as you speak. Just make sure your visuals don't distract from your message. Also, keep in mind that your visuals are of no use to your audience if they can't see them. Use images that are large and of sufficient resolution to be seen from any distance.</p>
+                    </li>
+                    <li><title>Repeat!</title>
+                        <p>Since your audience won't be able to pause and go back over previous material as they would be able to while reading a written argument, it's important that you provide them this opportunity by reminding your audience of the main parts of your argument and<mdash/>especially<mdash/>of parts that may be too complex to grasp at first glance.</p>
+                    </li>
+                    <li><title>Be explicit!</title>
+                        <p>(No, not that kind of explicit!) Explicitly state the connections between the parts of your argument and your thesis. Here, visual cues referring the reader back to relevant parts of your presentation can be helpful.</p>
+                    </li>
+                </ul>
+            </list>
+        </section>
+
+        <section xml:id="written-vs-spoken">
+            <title>Written versus Spoken Arguments</title>
+            <introduction>
+                <p>
+                    To illustrate <em>how</em> one might go about transforming a written argument into a spoken one, take a look at these two paragraphs. The first paragraph comes from an student-written academic paper, and the second makes the same argument in language appropriate for an oral presentation. Notice that, though they contain the same information and make the same argument, each paragraph does so differently.
+                </p>
+            </introduction>
+                <example>
+                    <title>Written Argument</title>
+                    <p>As a result of the increasing majoritarian agitation within American politics, many states began to reexamine their constitutions in order to better incorporate the desires of the common majority. One issue addressed within this field of political reform was the concept of universal male suffrage. Currently, the vote was extended to adult white males who owned land. Some statesmen wanted to extend suffrage to all adult white males regardless of their economic circumstances. George S. Camp articulated one of the most concise arguments in favor of universal male suffrage in 1841, in his book <pubtitle>Democracy</pubtitle>. For Camp, the right to vote was a natural right, attributed to men by the right of being human. He states, <q>All should have an equal voice in the public deliberations of the state, however unequal the point of circumstances, since human rights, by virtue of which alone we are entitled to vote at all, are the attributes of the man, not of his circumstances</q> (145). This statement neatly summarizes Camp's belief that the right to vote is a natural human right, irrespective of any economic condition. It also implies that because every man had the right to vote despite their economic circumstances, no class had a greater stake in the government than another. Camp argues, <q>Property is merely the subject on which rights are exercised <ellipsis/> We all have our rights, and no man has anything more</q> (146). For Camp, the economic situation of any human being was an <q>accident of fortune</q> and was of <q>true comparative insignificance</q> compared with the importance of <q>real attributes,</q> or natural rights, such as the right to vote; no man should be kept from exercising his rights because of his lack of economic prosperity.</p>
+                </example>
+            <p>That paragraph is difficult enough to <em>read!</em> It's even harder trying to understand its argument in the video, when you can only listen to it. Enter this listener-friendly version (notice that it's been broken into two smaller chunks).</p>
+                <example>
+                    <title>Spoken Argument</title>
+                    <p>In nineteenth-century America, only white male landowners could vote. There was considerable political unrest because the majority of people felt that their voices had not been heard, so states began to reexamine their constitutions. One major solution to this problem was universal male suffrage, which in this case meant that all white males could vote, regardless of landownership.</p>
+                    <p>One proponent of universal male suffrage, George S. Camp, argued that the right to vote is a natural human right. Camp insisted that economic circumstances don't affect a person's natural right to vote. He called people's ownership of property an exercise of rights, which means that all people have rights and nothing more. [pause] According to Camp, people in higher classes shouldn't have a greater stake in government because all that people have are their rights.</p>
+                </example>
+            <p>In length alone, the spoken version is shorter. By simplifying sentence structure and vocabulary, the spoken version is much more easily understandable. The speaker is patient with their explanations and clarifies things for the audience (<q>which in this case meant that all white males could vote</q>). By understanding the limits of aural processing, you can tailor your oral presentation to the needs of your audience and create, in so doing, a more pleasant experience for all.
+            </p>
+        </section>
+
+        <section xml:id="delivering-spoken">
+            <title>Delivering Spoken Arguments</title>
+                <p>We have considered some of the differences between spoken and written communication and suggested some strategies to negotiate them. Understanding these differences will help you to take advantage of the real time, face-to-face context of oral communication.
+                </p>
+                <list xml:id="list-speaking-strategies-delivering">
+                    <title>Strategies for Delivering a Spoken Argument</title>
+                    <ul>
+                        <li><title>Prepare ahead of time</title>
+                            <p>Even if you consider yourself to be a great improviser, you should begin preparing your presentation <em>at least</em> a couple of days in advance to give yourself time to<nbsp/><ellipsis/></p>
+                        </li>
+                        <li><title>Practice!</title>
+                            <p>Practicing your presentation <em>over and over</em> will help you feel more confident and comfortable when the time comes for you to actually present. We know that practicing speeches in college can sometimes be difficult, especially when you don't want to bother your roommate, but you have plenty of options! Try out a study room in <custom ref="library"/>, find an empty lounge in your residence hall, take turns practicing with other people in your class (or with your course assistant), make an appointment at the <custom ref="tutoring-center"/>, take your presentation notes on a walk and practice as you go (just watch out for cars and passersby!), or visit your professor during office hours for some feedback. Having a few run-throughs under your belt will make you more comfortable when you actually present.</p>
+                        </li>
+                        <li><title>Don't over-prepare</title>
+                            <p>Of course, don't prepare so much that your presentation becomes all that you think about. It's important to sleep and take breaks!</p>
+                        </li>
+                        <li><title>Don't read; speak</title>
+                            <p>The purpose of a presentation is not to read the audience your paper. Your audience can read. What they can't do when reading a written paper is engage in face-to-face communication with the writer. Engage your listeners on a personal level by actually <em>talking</em> to them. They'll be more interested in what you have to say, and you'll be happy to have been heard. (You might even be able to get away with a couple of jokes in your oral presentation. While we don't recommend undermining your authority with knock-knock jokes every other slide, a tasteful joke can help to establish rapport between you and your audience.)</p>
+                        </li>
+                        <li><title>Make eye contact</title>
+                            <p>Although it might seem scary to look directly at your audience, making eye contact will actually make the presentation less awkward! Making eye contact also tells your audience that you reciprocate the attention that they're giving you.</p>
+                                <image source="SW-eyes" width="50%"><description>Cartoon brown eyes look directly at the reader.</description></image>
+                        </li>
+                        <li><title>Assume good intent</title>
+                            <p>Sometimes people in your audience may look like they are not paying attention or like they aren't enjoying your presentation. While this may be the case, don't panic if people look less than enthralled. It's impossible to know why they look the way they do: They may have been sitting there for a long time, or maybe their resting face is not as perky and interested as your own! That said, when you're in the audience listening to other presentations, make an extra effort to be a good listener and to look interested and alert, even if you've been sitting there for a long time.</p>
+                        </li>
+                        <li><title>Remember that class presentations are learning experiences</title>
+                            <p>Class presentations, as with everything you do in college, are practice. Your classmates are dealing with the same stresses and anxieties as you, and your professor is aware that you are <em>practicing</em> and <em>learning</em>. If it helps, ask your professor if you can use the timer on your phone to keep track of time during your presentation. (But don't do this if watching the seconds tick by will make you more anxious!)</p>
+                        </li>
+                    </ul>
+                </list>
+                <p>Just breathe and relax, and it will be all right.</p>
+            </section>
+
+            <section xml:id="visual-aids">
+                <title>Preparing Visual Aids</title>
+                <p>
+                    While your spoken presentation is the main way you will communicate your argument and evidence to your audience, visual aids can be quite helpful<mdash/>if designed well. This section will focus on the basics of designing effective slideshows, as slideshows are the most common visual aids used when delivering an academic presentation, though other types of aids do exist! Effective visual aids can help audience members follow your line of reasoning.
+                </p>
+                    <list xml:id="slideshow-tips">
+                        <title>Tips for making slideshows</title>
+                        <ul>
+                            <li><title>Scaffold your slideshow like a paper!</title>
+                                <p>Similar to how you would break up sections or paragraphs in a paper based on the points each one is making, ensuring that every slide in your presentation serves a distinct purpose will help eliminate redundancy. It will also help you judge whether your argument is clearly outlined across your slides. For more information on organizing your argument, check out <xref ref="argument-organization"/></p>
+                            </li>
+                            <li><title>Bullet points</title>
+                                <p>It’s <em>your</em> moment to shine as a presenter! Having to read paragraphs or long sentences takes the audience's attention away from your spoken presentation, so make sure any written information is as quickly readable as possible; simplify your paragraphs to their key points! A rule of thumb for slides is the 6x6 rule (there should be no more than 6 words per line and 6 bullet points in a slide). <xref ref="style-writing-clearly"/> tips on writing clearly and concisely are definitely useful here.
+                                </p>
+                            </li>
+                            <li><title>Repetition!</title>
+                                <p>Slides allow you to remind your audience of your most important points, take full advantage of that! Your slides can compile your key points and visually connect them back to your broader argument.</p>
+                            </li>
+                            <li><title>A picture is worth a thousand words</title>
+                                <p>In some cases, diagrams, pictures, or figures are more appropriate than bullet points, especially when presenting data. However, figures cannot stand alone: in your oral presentation, point out key aspects of your figure to help audience members interpret your data (see Example 9.1.2).</p>
+                            </li>
+                            <li><title>Keep it simple!</title>
+                                <p>At the risk of sounding like a home decor guru, decluttering is important! Try to limit the components of your slides to components that drive your argument forward. While having visually-engaging slides will help maintain the audience’s focus, remember that the focus should be on <em>you</em>.</p>
+                            </li>
+                        </ul>
+                    </list>
+                    <example>
+                        <title>Do this, not that</title>
+                            <p>This slide has a manageable amount of information.</p>
+                            <image source="effective_slide"/>
+                            <p>This slide has too much information to be effective in a presentation.</p>
+                            <image source="ineffective_slide"/>
+                    </example>
+            </section>
+
+            <section xml:id="humor-academic-presentations">
+                <title>Humor in Academic Presentations</title>
+                <p>
+                    Academic presentations are usually intended to convey new information to an audience, and convince the audience of that information’s importance. Humor, which relies on common knowledge and subverting norms, might seem at odds with giving an academic presentation.
+                </p>
+                <p>
+                    Of course, there are risks to using humor in this context, especially the risk of distracting your audience and/or trivializing the subject of your presentation. To minimize that risk, it is best to think about humor like you would think about visual aids: a tool with specific uses. Often, humor is useful to build a rapport with your audience and make your presentation more accessible.
+                </p>
+                    <list xml:id="reasons-humor">
+                        <title>Reasons for using humor</title>
+                        <ul>
+                            <li><title>Establishing rapport</title>
+                                <p>Even if you’re presenting to your classmates, the initial awkwardness of talking to them as an audience can be hard to overcome. A brief opening joke, if it lands, can help with that awkwardness and make you appear more open to engaging with your audience, which in turn makes your audience more willing to engage with you!</p>
+                            </li>
+                            <li><title>Making your presentation more accessible</title>
+                                <p>If your presentation is on a relatively niche or specialized topic, it is crucial to make sure that everyone in your audience can understand. Humor that relies on commonalities in background, like references to popular books or movies, can give people unfamiliar with the subject of your presentation a “foothold:” an initial understanding they can build during your presentation.</p>
+                            </li>
+                        </ul>
+                    </list>
+                    <example>
+                        <p>For instance, consider a presentation about the 26S Ubiquitin Proteasome System. If it was defined as the “major regulatory system governing protein degradation in eukaryotic cells,” most audience members would be immediately lost. However, a comparison to the “Death Star” from Star Wars would help audience members retain a key point about the 26S Ubiquitin Proteasome System: it can target and destroy.</p>
+                    </example>
+                    <p>Evidently, humor is useful for academic presentations! However, there are some broader guidelines to follow when using humor in this setting, as with any tool.</p>
+                    <list xml:id="guidelines-using-humor">
+                        <title>Guidelines for using humor</title>
+                        <ul>
+                            <li><title>Moderation is key!</title>
+                                <p>Try to refrain from jokes that do not directly serve the purposes of your presentation. If a joke doesn’t make your point more comprehensible, does it really need to be said?</p>
+                            </li>
+                            <li><title>Consider the connotations of your references</title>
+                                <p>In line with avoiding digressions, avoid references that may be inherently distracting because of their connotations. Avoid humor that is controversial, charged, and/or would be kept off-limits during Thanksgiving dinner conversation.</p>
+                            </li>
+                            <li><title>Keep your set-ups brief</title>
+                                <p>The longer the set-up to your punchline, the more it veers into digression territory, and the further away from your argument it gets. Try to keep any jokes you make self-contained: within one slide of your presentation.</p>
+                            </li>
+                        </ul>
+                    </list>
+            </section>
 </chapter>
