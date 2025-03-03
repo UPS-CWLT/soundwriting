@@ -11,7 +11,16 @@
 <!-- Source:  https://github.com/UPS-CWLT/soundwriting                  -->
 <!--                                                                    -->
 <frontmatter xml:id="frontmatter">
+    <!-- Create a titlepage and a front colophon by mining  -->
+    <!-- elements of the bibinfo element (just below) -->
     <titlepage>
+        <titlepage-items/>
+    </titlepage>
+    <colophon>
+        <colophon-items/>
+    </colophon>
+    <!-- small database of people and other things -->
+    <bibinfo>
         <author>
             <personname>Cody Chun</personname>
             <department>English, Class of 2017</department>
@@ -81,9 +90,11 @@
                 <department>Professor, Mathematics and Computer Science</department>
             </author>
         </credit>
-    </titlepage>
-    <colophon>
-        <!-- the "today" element can be temporarily hard-coded as desired date -->
+        <!-- Above typically on the title page     -->
+        <!-- Below typically on the copyright page -->
+        <!--                                       -->
+        <!-- The "today" element can be temporarily -->
+        <!-- hard-coded as desired publication date -->
         <credit>
             <role>Cover Design</role>
             <entity>Fletcher Crone</entity>
@@ -95,7 +106,7 @@
             <minilicense>CC-BY-SA</minilicense>
             <shortlicense>Creative Commons Attribution-ShareAlike 4.0 International License</shortlicense>
         </copyright>
-    </colophon>
+    </bibinfo>
     <acknowledgement>
         <title>Acknowledgments</title>
 
