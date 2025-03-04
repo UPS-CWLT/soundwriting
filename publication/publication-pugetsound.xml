@@ -29,8 +29,14 @@
 
     <!-- HTML-Specific Options -->
     <html>
-        <!-- Custom CSS (developed by Oscar Levin, David Farmer)   -->
-        <!-- Also, a UPS color option (David Farmer)               -->
+        <!-- Custom CSS (developed by Oscar Levin, David Farmer)        -->
+        <!-- Also, a UPS color option (David Farmer)                    -->
+        <!-- 2025-03-03: CSS has migrated to themes.  "soundwriting"    -->
+        <!-- style has been migrated to a "soundwriting-legacy" theme.  -->
+        <!-- Sticking with the old @style attribute will employ the new -->
+        <!-- theme.  Code suggests the @colors attribute is respected.  -->
+        <!-- (There will be a deprecation warning, which we are         -->
+        <!-- choosing to ignore at the moment.)                         -->
         <css style="soundwriting" colors="maroon_grey"/>
         <!-- examples are knowled by default, we turn that off -->
         <knowl example="no"/>
