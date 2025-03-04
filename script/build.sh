@@ -18,7 +18,8 @@ DIR="$(dirname "$0")"
 declare SWXSL=${SRC}/xsl
 declare MBUSER=${MBX}/user
 declare MBXSCRIPT=${MBX}/script/mbx
-declare SOURCE=${SRC}/src
+declare SOURCE=${SRC}/source
+declare PUB=${SRC}/publication
 declare IMAGES=${SOURCE}/images
 declare CSS=${SRC}/css
 declare ASSETS=${SRC}/assets
@@ -108,13 +109,57 @@ function view_errors {
 }
 
 # Subroutine to build the Puget Sound HTML version
+function build_htmlups {
+    echo
+    echo "BUILD: Building Puget Sound HTML Version :BUILD"
+    echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    # create directory
+    install -d ${SCRATCH}/htmlups
+    ${MBX}/pretext/pretext -vv -d ${SCRATCH}/htmlups -c all -f html -X ${MBUSER}/ups-writers-html.xsl -p ${PUB}/publication-pugetsound.xml ${SOURCE}/SoundWriting.ptx
+}
+
+# Subroutine to build the Universal HTML version
+function build_htmluniversal {
+    echo
+    echo "BUILD: Building Universal HTML Version :BUILD"
+    echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    # create directory
+    install -d ${SCRATCH}/htmluniversal
+    ${MBX}/pretext/pretext -vv -d ${SCRATCH}/htmluniversal -c all -f html -X ${MBUSER}/ups-writers-html.xsl -p ${PUB}/publication-universal.xml ${SOURCE}/SoundWriting.ptx
+}
+
+# Subroutine to build the Puget Sound (electronic) PDF version
+function build_pdfups {
+    echo
+    echo "BUILD: Building Puget Sound (electronic) PDF Version :BUILD"
+    echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    # create directory
+    install -d ${SCRATCH}/pdfups
+    # "latex.print" should be conveyed by the publication file, but this
+    # would mean the printable version below would need a new publication file
+    ${MBX}/pretext/pretext -vv -c all -f pdf -x latex.print no -X ${MBUSER}/ups-writers-latex-styled.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/pdfups/soundwriting.pdf ${SOURCE}/SoundWriting.ptx
+}
+
+# Subroutine to build the Universal (electronic) PDF version
+function build_pdfuniversal {
+    echo
+    echo "BUILD: Building Universal (electronic) PDF Version :BUILD"
+    echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    # create directory
+    install -d ${SCRATCH}/pdfuniversal
+    # "latex.print" should be conveyed by the publication file, but this
+    # would mean the printable version below would need a new publication file
+    ${MBX}/pretext/pretext -vv -c all -f pdf -x latex.print no -X ${MBUSER}/ups-writers-latex-styled.xsl -p ${PUB}/publication-universal.xml -o ${SCRATCH}/pdfuniversal/soundwriting.pdf ${SOURCE}/SoundWriting.ptx
+}
+
+# Subroutine to build the Puget Sound HTML version
 function build_epubups {
     echo
     echo "BUILD: Building Puget Sound EPUB Version :BUILD"
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     # create directory
-    install -d ${SCRATCH}
-    ${MBX}/pretext/pretext -vv -c all -f epub-svg -X ${MBUSER}/ups-writers-epub.xsl -p ${SOURCE}/publication-pugetsound.xml -o ${SCRATCH}/soundwriting-${DATE}-pugetsound.epub ${SOURCE}/SoundWriting.ptx
+    install -d ${SCRATCH}/epub
+    ${MBX}/pretext/pretext -vv -c all -f epub-svg -X ${MBUSER}/ups-writers-epub.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/epub/soundwriting-${DATE}-pugetsound.epub ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the print PDF version
@@ -123,7 +168,7 @@ function build_epubups {
 # file for just this one difference. (2023-01-12)
 function build_print {
     install -d ${SCRATCH} # Create the scratch directory
-    ${MBX}/pretext/pretext -vv -c all -f pdf -x latex.print yes -X ${MBUSER}/ups-writers-latex-styled.xsl -p ${SOURCE}/publication-pugetsound.xml -o ${SCRATCH}/soundwriting-${DATE}-print.pdf ${SOURCE}/SoundWriting.ptx
+    ${MBX}/pretext/pretext -vv -c all -f pdf -x latex.print yes -X ${MBUSER}/ups-writers-latex.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/soundwriting-${DATE}-print.pdf ${SOURCE}/SoundWriting.ptx
 }
 
 function view_print {
@@ -170,6 +215,22 @@ case "$1" in
     setup
     build_epubups
     ;;
+    "htmlups")
+    setup
+    build_htmlups
+    ;;
+    "htmluniversal")
+    setup
+    build_htmluniversal
+    ;;
+    "pdfups")
+    setup
+    build_pdfups
+    ;;
+    "pdfuniversal")
+    setup
+    build_pdfuniversal
+    ;;
     "print")
     setup
     build_print
@@ -192,6 +253,6 @@ case "$1" in
     website
     ;;
     *)
-    echo "Supply an option: all|youtube|pdfuniversal|viewpdfuniversal|pdfups|viewpdfups|epubups|print|viewprint|validate|viewerrors|website <username>"
+    echo "Supply an option: all|htmluniversal|youtube|pdfuniversal|viewpdfuniversal|pdfups|viewpdfups|epubups|print|viewprint|validate|viewerrors|website <username>"
     ;;
 esac
