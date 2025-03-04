@@ -16,8 +16,8 @@ DIR="$(dirname "$0")"
 
 # following depend on paths source'd above
 declare SWXSL=${SRC}/xsl
-declare MBUSER=${MBX}/user
-declare MBXSCRIPT=${MBX}/script/mbx
+declare MBUSER=${PTX}/user
+declare MBXSCRIPT=${PTX}/script/mbx
 declare SOURCE=${SRC}/source
 declare PUB=${SRC}/publication
 declare IMAGES=${SOURCE}/images
@@ -72,7 +72,7 @@ function schema-validate {
         -classpath ${JINGTRANG}\
         -Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration\
         -jar ${JINGTRANG}/jing.jar\
-        ${MBX}/schema/pretext.rng ${SOURCE}/SoundWriting.ptx\
+        ${PTX}/schema/pretext.rng ${SOURCE}/SoundWriting.ptx\
     | grep -v\
         -e ': error: element "blue" not allowed anywhere;'\
         -e ': error: element "darkgreen" not allowed anywhere;'\
@@ -100,7 +100,7 @@ function schema-validate {
     echo
     echo "BUILD: Schematron Validation :BUILD"
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-    xsltproc --xinclude ${MBX}/schema/pretext-schematron.xsl ${SOURCE}/SoundWriting.ptx\
+    xsltproc --xinclude ${PTX}/schema/pretext-schematron.xsl ${SOURCE}/SoundWriting.ptx\
     >> ${SCRATCH}/errors.txt
 }
 
@@ -115,7 +115,7 @@ function build_htmlups {
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     # create directory
     install -d ${SCRATCH}/htmlups
-    ${MBX}/pretext/pretext -vv -d ${SCRATCH}/htmlups -c all -f html -X ${MBUSER}/ups-writers-html.xsl -p ${PUB}/publication-pugetsound.xml ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -d ${SCRATCH}/htmlups -c all -f html -X ${MBUSER}/ups-writers-html.xsl -p ${PUB}/publication-pugetsound.xml ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the Universal HTML version
@@ -125,7 +125,7 @@ function build_htmluniversal {
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     # create directory
     install -d ${SCRATCH}/htmluniversal
-    ${MBX}/pretext/pretext -vv -d ${SCRATCH}/htmluniversal -c all -f html -X ${MBUSER}/ups-writers-html.xsl -p ${PUB}/publication-universal.xml ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -d ${SCRATCH}/htmluniversal -c all -f html -X ${MBUSER}/ups-writers-html.xsl -p ${PUB}/publication-universal.xml ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the Puget Sound (electronic) PDF version
@@ -137,7 +137,7 @@ function build_pdfups {
     install -d ${SCRATCH}/pdfups
     # "latex.print" should be conveyed by the publication file, but this
     # would mean the printable version below would need a new publication file
-    ${MBX}/pretext/pretext -vv -c all -f pdf -x latex.print no -X ${MBUSER}/ups-writers-latex-styled.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/pdfups/soundwriting.pdf ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -c all -f pdf -x latex.print no -X ${MBUSER}/ups-writers-latex-styled.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/pdfups/soundwriting.pdf ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the Universal (electronic) PDF version
@@ -149,7 +149,7 @@ function build_pdfuniversal {
     install -d ${SCRATCH}/pdfuniversal
     # "latex.print" should be conveyed by the publication file, but this
     # would mean the printable version below would need a new publication file
-    ${MBX}/pretext/pretext -vv -c all -f pdf -x latex.print no -X ${MBUSER}/ups-writers-latex-styled.xsl -p ${PUB}/publication-universal.xml -o ${SCRATCH}/pdfuniversal/soundwriting.pdf ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -c all -f pdf -x latex.print no -X ${MBUSER}/ups-writers-latex-styled.xsl -p ${PUB}/publication-universal.xml -o ${SCRATCH}/pdfuniversal/soundwriting.pdf ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the Puget Sound HTML version
@@ -159,7 +159,7 @@ function build_epubups {
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     # create directory
     install -d ${SCRATCH}/epub
-    ${MBX}/pretext/pretext -vv -c all -f epub-svg -X ${MBUSER}/ups-writers-epub.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/epub/soundwriting-${DATE}-pugetsound.epub ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -c all -f epub-svg -X ${MBUSER}/ups-writers-epub.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/epub/soundwriting-${DATE}-pugetsound.epub ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the print PDF version
@@ -168,7 +168,7 @@ function build_epubups {
 # file for just this one difference. (2023-01-12)
 function build_print {
     install -d ${SCRATCH} # Create the scratch directory
-    ${MBX}/pretext/pretext -vv -c all -f pdf -x latex.print yes -X ${MBUSER}/ups-writers-latex.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/soundwriting-${DATE}-print.pdf ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -c all -f pdf -x latex.print yes -X ${MBUSER}/ups-writers-latex.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/soundwriting-${DATE}-print.pdf ${SOURCE}/SoundWriting.ptx
 }
 
 function view_print {

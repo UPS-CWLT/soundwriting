@@ -8,7 +8,7 @@
 #
 # Edits to make to paths.sh
 #
-# 1. MBX is the full path to the root of PreTeXt,
+# 1. PTX is the full path to the root of PreTeXt,
 #    no trailing slash.
 #
 # 2. SRC is full path to root of Sound Writing,
@@ -22,7 +22,7 @@
 #    leaving first line of comments only
 
 
-declare MBX=/home/...../mathbook
+declare PTX=/home/...../pretext
 declare SRC=/home/...../soundwriting
 declare SCRATCH=/tmp/sw
 declare PDFVIEWER=
