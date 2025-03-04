@@ -22,7 +22,7 @@
 <!-- Import the usual HTML conversion, then enhance it with the "common" -->
 <!-- extras split out for all conversions based ultimately on HTML.      -->
 
-<xsl:import href="./core/pretext-html.xsl" />
+<xsl:import href="../xsl/pretext-html.xsl" />
 <xsl:import href="./ups-writers-html-common.xsl" />
 
 <xsl:output method="html"/>
