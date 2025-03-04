@@ -16,7 +16,7 @@ DIR="$(dirname "$0")"
 
 # following depend on paths source'd above
 declare SWXSL=${SRC}/xsl
-declare MBUSER=${PTX}/user
+declare PTXUSER=${PTX}/user
 declare MBXSCRIPT=${PTX}/script/mbx
 declare SOURCE=${SRC}/source
 declare PUB=${SRC}/publication
@@ -45,12 +45,12 @@ function setup {
     echo
     echo "BUILD: Update Custom XSL :BUILD"
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-    install -d ${MBUSER}
-    cp ${SWXSL}/ups-writers-html-common.xsl    ${MBUSER}/ups-writers-html-common.xsl
-    cp ${SWXSL}/ups-writers-html.xsl           ${MBUSER}/ups-writers-html.xsl
-    cp ${SWXSL}/ups-writers-epub.xsl           ${MBUSER}/ups-writers-epub.xsl
-    cp ${SWXSL}/ups-writers-latex.xsl          ${MBUSER}/ups-writers-latex.xsl
-    cp ${SWXSL}/ups-writers-latex-styled.xsl   ${MBUSER}/ups-writers-latex-styled.xsl
+    install -d ${PTXUSER}
+    cp ${SWXSL}/ups-writers-html-common.xsl    ${PTXUSER}/ups-writers-html-common.xsl
+    cp ${SWXSL}/ups-writers-html.xsl           ${PTXUSER}/ups-writers-html.xsl
+    cp ${SWXSL}/ups-writers-epub.xsl           ${PTXUSER}/ups-writers-epub.xsl
+    cp ${SWXSL}/ups-writers-latex.xsl          ${PTXUSER}/ups-writers-latex.xsl
+    cp ${SWXSL}/ups-writers-latex-styled.xsl   ${PTXUSER}/ups-writers-latex-styled.xsl
 }
 
 function build_you_tube_thumbnail {
@@ -115,7 +115,7 @@ function build_htmlups {
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     # create directory
     install -d ${SCRATCH}/htmlups
-    ${PTX}/pretext/pretext -vv -d ${SCRATCH}/htmlups -c all -f html -X ${MBUSER}/ups-writers-html.xsl -p ${PUB}/publication-pugetsound.xml ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -d ${SCRATCH}/htmlups -c all -f html -X ${PTXUSER}/ups-writers-html.xsl -p ${PUB}/publication-pugetsound.xml ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the Universal HTML version
@@ -125,7 +125,7 @@ function build_htmluniversal {
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     # create directory
     install -d ${SCRATCH}/htmluniversal
-    ${PTX}/pretext/pretext -vv -d ${SCRATCH}/htmluniversal -c all -f html -X ${MBUSER}/ups-writers-html.xsl -p ${PUB}/publication-universal.xml ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -d ${SCRATCH}/htmluniversal -c all -f html -X ${PTXUSER}/ups-writers-html.xsl -p ${PUB}/publication-universal.xml ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the Puget Sound (electronic) PDF version
@@ -137,7 +137,7 @@ function build_pdfups {
     install -d ${SCRATCH}/pdfups
     # "latex.print" should be conveyed by the publication file, but this
     # would mean the printable version below would need a new publication file
-    ${PTX}/pretext/pretext -vv -c all -f pdf -x latex.print no -X ${MBUSER}/ups-writers-latex-styled.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/pdfups/soundwriting.pdf ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -c all -f pdf -x latex.print no -X ${PTXUSER}/ups-writers-latex-styled.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/pdfups/soundwriting.pdf ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the Universal (electronic) PDF version
@@ -149,7 +149,7 @@ function build_pdfuniversal {
     install -d ${SCRATCH}/pdfuniversal
     # "latex.print" should be conveyed by the publication file, but this
     # would mean the printable version below would need a new publication file
-    ${PTX}/pretext/pretext -vv -c all -f pdf -x latex.print no -X ${MBUSER}/ups-writers-latex-styled.xsl -p ${PUB}/publication-universal.xml -o ${SCRATCH}/pdfuniversal/soundwriting.pdf ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -c all -f pdf -x latex.print no -X ${PTXUSER}/ups-writers-latex-styled.xsl -p ${PUB}/publication-universal.xml -o ${SCRATCH}/pdfuniversal/soundwriting.pdf ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the Puget Sound HTML version
@@ -159,7 +159,7 @@ function build_epubups {
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     # create directory
     install -d ${SCRATCH}/epub
-    ${PTX}/pretext/pretext -vv -c all -f epub-svg -X ${MBUSER}/ups-writers-epub.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/epub/soundwriting-${DATE}-pugetsound.epub ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -c all -f epub-svg -X ${PTXUSER}/ups-writers-epub.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/epub/soundwriting-${DATE}-pugetsound.epub ${SOURCE}/SoundWriting.ptx
 }
 
 # Subroutine to build the print PDF version
@@ -168,7 +168,7 @@ function build_epubups {
 # file for just this one difference. (2023-01-12)
 function build_print {
     install -d ${SCRATCH} # Create the scratch directory
-    ${PTX}/pretext/pretext -vv -c all -f pdf -x latex.print yes -X ${MBUSER}/ups-writers-latex.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/soundwriting-${DATE}-print.pdf ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -vv -c all -f pdf -x latex.print yes -X ${PTXUSER}/ups-writers-latex.xsl -p ${PUB}/publication-pugetsound.xml -o ${SCRATCH}/soundwriting-${DATE}-print.pdf ${SOURCE}/SoundWriting.ptx
 }
 
 function view_print {
