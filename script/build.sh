@@ -17,7 +17,6 @@ DIR="$(dirname "$0")"
 # following depend on paths source'd above
 declare SWXSL=${SRC}/xsl
 declare PTXUSER=${PTX}/user
-declare MBXSCRIPT=${PTX}/script/mbx
 declare SOURCE=${SRC}/source
 declare PUB=${SRC}/publication
 declare IMAGES=${SOURCE}/images
@@ -57,7 +56,7 @@ function build_you_tube_thumbnail {
     echo
     echo "BUILD: Building YouTube Thumbnails :BUILD"
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-    ${MBXSCRIPT} -c youtube -d ${IMAGES} ${SOURCE}/SoundWriting.ptx
+    ${PTX}/pretext/pretext -c youtube -d ${IMAGES} ${SOURCE}/SoundWriting.ptx
 }
 
 # Validation using RELAX-NG
